@@ -1,0 +1,10 @@
+#head{
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+}
+
+#head.h1{
+    color: white;
+}

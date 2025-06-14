@@ -1,0 +1,114 @@
+{
+   "cvs":[
+      {
+         "personal_data":{
+            "name":"Jane Doe",
+            "id":"1556161166",
+            "tel":"+57455455454",
+            "address":" 65wwqeqw",
+            "email":"janedoe@email.com",
+            "date_birth":"20/05/1990"
+         },
+         "academic_training":[
+            {
+               "institute":"ferrini",
+               "title":"bachiller",
+               "duration":"5/20/2000 to 15/56/2005"
+            },
+            {
+               "institute":"itm",
+               "title":"medico general",
+               "duration":"5/20/2006 to 15/56/2010"
+            }
+         ],
+         "professional_experience":[
+            {
+               "company":"sura",
+               "post":"medico urgencias",
+               "function_performed":"atendender sala de urgencias",
+               "duration":"5/20/2000 to 15/56/2005"
+            },
+            {
+               "company":"saviasalud",
+               "post":"medico urgencias",
+               "function_performed":"atendender sala de urgencias",
+               "duration":"5/20/2000 to 15/56/2005"
+            }
+         ],
+         "personal_references":[
+            {
+               "name":"Foo Jones",
+               "relation":"papa",
+               "tel":"556-342-452"
+            },
+            {
+               "name":"jane Jones",
+               "relation":"mama",
+               "tel":"556-342-452"
+            }
+         ],
+         "skills_or_certificates":[
+            {
+               "certificate":"Foo Jones",
+               "date":"12/45/15"
+            },
+            ""
+         ]
+      },
+      {
+         "personal_data":{
+            "name":"Jane Doe",
+            "id":"1556161166",
+            "tel":"+57455455454",
+            "address":" 65wwqeqw",
+            "email":"janedoe@email.com",
+            "date_birth":"20/05/1990"
+         },
+         "academic_training":[
+            {
+               "institute":"ferrini",
+               "title":"bachiller",
+               "duration":"5/20/2000 to 15/56/2005"
+            },
+            {
+               "institute":"itm",
+               "title":"medico general",
+               "duration":"5/20/2006 to 15/56/2010"
+            }
+         ],
+         "professional_experience":[
+            {
+               "company":"sura",
+               "post":"medico urgencias",
+               "function_performed":"atendender sala de urgencias",
+               "duration":"5/20/2000 to 15/56/2005"
+            },
+            {
+               "company":"saviasalud",
+               "post":"medico urgencias",
+               "function_performed":"atendender sala de urgencias",
+               "duration":"5/20/2000 to 15/56/2005"
+            }
+         ],
+         "personal_references":[
+            {
+               "name":"Foo Jones",
+               "relation":"papa",
+               "tel":"556-342-452"
+            },
+            {
+               "name":"jane Jones",
+               "relation":"mama",
+               "tel":"556-342-452"
+            }
+         ],
+         "skills_or_certificates":[
+            {
+               "certificate":"Foo Jones",
+               "date":"12/45/15"
+            },
+            ""
+         ]
+      }
+   ]
+}
