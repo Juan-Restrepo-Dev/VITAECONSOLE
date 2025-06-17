@@ -1,0 +1,47 @@
+#head{
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+}
+
+#head.h1{
+    color: white;
+}
+/* .column-1{
+
+}
+.column-2{
+    width: 100px;
+}
+.column-3{
+
+}
+.column-4{
+    width: 250px ;
+    
+}
+.column-5{
+
+}
+.row-1{
+
+}
+.row-2{
+
+}
+.row-2{
+    height: 100px;
+
+}
+.row-4{
+    height: 100px;
+
+}
+.row-5{
+
+}
+
+.row-footer{
+    background-color: blueviolet;
+} */
