@@ -1,9 +1,17 @@
-from term_image.image import from_file
+from term_image.image import from_file, ITerm2Image
 from rich.console import Console
 from rich.text import Text
 
-image = from_file("./html.png")
-text = Text.from_ansi(str(image))
+
+image = ITerm2Image
+image.forced_support = True   
+image.from_file('./html.png')
+image.width = 50
+image.height = 50
+print(image)
+# image.draw()
+# image = from_file("./html.png")
+# text = Text.from_ansi(str(image))
 #  from textual.app import App, ComposeResult
 # from textual.containers import Grid
 # from textual.screen import ModalScreen

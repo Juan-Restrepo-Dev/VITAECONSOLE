@@ -2,18 +2,19 @@ from textual.app import App, ComposeResult,RenderResult
 from textual.containers import Grid
 from textual.screen import ModalScreen
 from textual.widgets import Button, Footer, Header, Label,ListView,ListItem,Digits,MarkdownViewer,Static
-from term_image.image import from_file
+from term_image.image import from_file,Size
 from rich.console import Console
 from rich.text import Text
 from rich import  box
 from rich.panel import Panel
 
 
-image = from_file("./html.png",)
-image.forced_support    
-image.width = 50
-image.height = 50
-def img_render(image=image)->RenderResult:
+html = from_file("./download-html-icon.png",width = 30)
+pdf = from_file("./download-pdf-icon.png",width = 30)
+# image.forced_support    
+# image.width = 20
+# image.height = 20
+def img_render(image)->RenderResult:
         img_ansi = Text.from_ansi(str(image))
         return img_ansi
 
@@ -27,7 +28,7 @@ class ExportScreen(ModalScreen):
         # yield ListView(
         #       ListItem(Static(img_render())),
         #     )
-        # yield Static(img_render())
+        yield Static((img_render(html) + img_render(pdf)),id="icons-container")
         yield Grid(
             Label("Are you sure you want to quit?", id="question"),
             

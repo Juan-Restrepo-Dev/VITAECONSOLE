@@ -1,7 +1,10 @@
 ExportScreen {
     align: center middle;
 }
-
+#icons-container{
+    background: #ffffff;
+    width: 60;
+}
 #dialog {
     grid-size: 3;
     grid-gutter: 1 2;
