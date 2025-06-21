@@ -33,9 +33,9 @@ class ExportScreen(ModalScreen):
             Label("Are you sure you want to quit?", id="question"),
             
             ListView(
-                ListItem(Label(Button("Export html",variant="html",id="exportHtml"),img_render(html))),
-                ListItem(Button("Export PDF",variant="pdf",id="ExportPdf"),img_pdf(pdf)),
-                ListItem(),
+                ListItem(Label(Button("Export HTML",variant="html",id="exportHtml"),img_render(html))),
+                ListItem(Button("Export PDF",variant="pdf",id="ExportPdf"),img_render(pdf)),
+                ListItem(Button("Export JSON",variant="json",id="ExportJSON"),img_render(json)),
             ),
             Button("Quit", variant="error", id="quit"),
             Button("Cancel", variant="primary", id="cancel"),
