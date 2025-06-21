@@ -34,8 +34,8 @@ class ExportScreen(ModalScreen):
             
             ListView(
                 ListItem(Label(Button("Export html",variant="html",id="exportHtml"),img_render(html))),
-                ListItem(Digits("£100.00")),
-                ListItem(Digits("€500.00")),
+                ListItem(Button("Export PDF",variant="pdf",id="ExportPdf"),img_pdf(pdf)),
+                ListItem(),
             ),
             Button("Quit", variant="error", id="quit"),
             Button("Cancel", variant="primary", id="cancel"),
