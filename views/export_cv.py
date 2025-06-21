@@ -33,7 +33,7 @@ class ExportScreen(ModalScreen):
             Label("Are you sure you want to quit?", id="question"),
             
             ListView(
-                ListItem(Label(Text("hola perro"))),
+                ListItem(Label(Button("Export html",variant="html",id="exportHtml"),img_render(html))),
                 ListItem(Digits("£100.00")),
                 ListItem(Digits("€500.00")),
             ),
